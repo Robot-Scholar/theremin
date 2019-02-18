@@ -26,7 +26,7 @@ void loop() {
 		// 100  == max distance in cm
 		// 1500 == max frequency
 		// 500  == min frequency
-		int pitch = map(dist, 1, 100, 1500, 500);
+		int pitch = map(dist, 1, 100, 1568, 784);
 		tone(buzzer, pitch);
 
 	} else {
